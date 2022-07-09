@@ -17,6 +17,11 @@
 		D91FC6A528719EA6004439C8 /* Objective_C_test_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91FC6A428719EA6004439C8 /* Objective_C_test_TutorialTests.m */; };
 		D91FC6AF28719EA6004439C8 /* Objective_C_test_TutorialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91FC6AE28719EA6004439C8 /* Objective_C_test_TutorialUITests.m */; };
 		D91FC6B128719EA6004439C8 /* Objective_C_test_TutorialUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91FC6B028719EA6004439C8 /* Objective_C_test_TutorialUITestsLaunchTests.m */; };
+		D92491722879B1AC009CA167 /* SecondSecreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92491702879B1AC009CA167 /* SecondSecreenViewController.swift */; };
+		D92491732879B1AC009CA167 /* SecondSecreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92491712879B1AC009CA167 /* SecondSecreenViewController.xib */; };
+		D92491772879B1DB009CA167 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92491752879B1DB009CA167 /* ThirdViewController.m */; };
+		D92491782879B1DB009CA167 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92491762879B1DB009CA167 /* ThirdViewController.xib */; };
+		D924917A2879B1FE009CA167 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92491792879B1FE009CA167 /* LastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,13 @@
 		D91FC6AA28719EA6004439C8 /* Objective_C_test_TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Objective_C_test_TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91FC6AE28719EA6004439C8 /* Objective_C_test_TutorialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_test_TutorialUITests.m; sourceTree = "<group>"; };
 		D91FC6B028719EA6004439C8 /* Objective_C_test_TutorialUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_test_TutorialUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D924916F2879B1AB009CA167 /* Objective_C_test_Tutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective_C_test_Tutorial-Bridging-Header.h"; sourceTree = "<group>"; };
+		D92491702879B1AC009CA167 /* SecondSecreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSecreenViewController.swift; sourceTree = "<group>"; };
+		D92491712879B1AC009CA167 /* SecondSecreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondSecreenViewController.xib; sourceTree = "<group>"; };
+		D92491742879B1DB009CA167 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D92491752879B1DB009CA167 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D92491762879B1DB009CA167 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		D92491792879B1FE009CA167 /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,13 @@
 				D91FC69628719EA6004439C8 /* LaunchScreen.storyboard */,
 				D91FC69928719EA6004439C8 /* Info.plist */,
 				D91FC69A28719EA6004439C8 /* main.m */,
+				D92491702879B1AC009CA167 /* SecondSecreenViewController.swift */,
+				D92491712879B1AC009CA167 /* SecondSecreenViewController.xib */,
+				D924916F2879B1AB009CA167 /* Objective_C_test_Tutorial-Bridging-Header.h */,
+				D92491742879B1DB009CA167 /* ThirdViewController.h */,
+				D92491752879B1DB009CA167 /* ThirdViewController.m */,
+				D92491762879B1DB009CA167 /* ThirdViewController.xib */,
+				D92491792879B1FE009CA167 /* LastViewController.swift */,
 			);
 			path = Objective_C_test_Tutorial;
 			sourceTree = "<group>";
@@ -203,6 +222,7 @@
 				TargetAttributes = {
 					D91FC68428719EA4004439C8 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 					D91FC69F28719EA6004439C8 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -239,8 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92491732879B1AC009CA167 /* SecondSecreenViewController.xib in Resources */,
 				D91FC69828719EA6004439C8 /* LaunchScreen.storyboard in Resources */,
 				D91FC69528719EA6004439C8 /* Assets.xcassets in Resources */,
+				D92491782879B1DB009CA167 /* ThirdViewController.xib in Resources */,
 				D91FC69328719EA4004439C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91FC69028719EA4004439C8 /* ViewController.m in Sources */,
+				D924917A2879B1FE009CA167 /* LastViewController.swift in Sources */,
 				D91FC68A28719EA4004439C8 /* AppDelegate.m in Sources */,
+				D92491772879B1DB009CA167 /* ThirdViewController.m in Sources */,
 				D91FC69B28719EA6004439C8 /* main.m in Sources */,
+				D92491722879B1AC009CA167 /* SecondSecreenViewController.swift in Sources */,
 				D91FC68D28719EA4004439C8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 956U2N6496;
@@ -458,6 +484,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "yasin.dalkilic.Objective-C-test-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Objective_C_test_Tutorial/Objective_C_test_Tutorial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -467,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 956U2N6496;
@@ -485,6 +515,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "yasin.dalkilic.Objective-C-test-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Objective_C_test_Tutorial/Objective_C_test_Tutorial-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -492,6 +524,7 @@
 		D91FC6B828719EA6004439C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -510,6 +543,7 @@
 		D91FC6B928719EA6004439C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -528,6 +562,7 @@
 		D91FC6BB28719EA6004439C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 956U2N6496;
@@ -544,6 +579,7 @@
 		D91FC6BC28719EA6004439C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 956U2N6496;
