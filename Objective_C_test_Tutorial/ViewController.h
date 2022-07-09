@@ -8,6 +8,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *labelToShow;
+@property (weak, nonatomic) IBOutlet UITextField *textfiledToText;
+- (IBAction)tappedButton:(id)sender;
+
 
 
 @end
